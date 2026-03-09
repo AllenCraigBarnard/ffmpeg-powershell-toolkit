@@ -39,11 +39,11 @@ powershell -ExecutionPolicy Bypass -File .\install-ffmpeg.ps1 -iAgreeAndAcknowle
 ```
 
 
-# update-ffmpeg.ps1
+### update-ffmpeg.ps1
 
 Update FFmpeg on Windows by removing the existing user-profile installation, downloading the latest build, extracting it, and re-adding the FFmpeg `bin` directory to the current user's `PATH`.
 
-## Requirements
+#### Requirements
 
 - Windows
 - Windows PowerShell 5.1 or newer
@@ -65,12 +65,12 @@ powershell -ExecutionPolicy Bypass -File .\update-ffmpeg.ps1 -iAgreeAndAcknowled
 ```
 
 
-# ffmpeg-join-video-files.ps1
+### ffmpeg-join-video-files.ps1
 
 Join multiple video files into a single `.mp4` or `.mkv` output using FFmpeg.
 This script autofixes timestamps.
 
-## Requirements
+#### Requirements
 
 - Windows
 - Windows PowerShell 5.1 or newer
