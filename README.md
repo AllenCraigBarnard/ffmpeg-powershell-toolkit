@@ -36,7 +36,7 @@ Downloads the latest shared GPL Windows FFmpeg build, extracts it into your user
 
 ```powershell
 powershell -ExecutionPolicy Bypass -File .\install-ffmpeg.ps1 -iAgreeAndAcknowledgeRisks
-
+```
 
 
 # update-ffmpeg.ps1
@@ -62,7 +62,7 @@ If the switch is not provided, the script prints a warning message and exits.
 
 ```powershell
 powershell -ExecutionPolicy Bypass -File .\update-ffmpeg.ps1 -iAgreeAndAcknowledgeRisks
-
+```
 
 
 # ffmpeg-join-video-files.ps1
@@ -105,6 +105,8 @@ Create a text file list.txt file in this format:
 file 'C:\Videos\clip01.mp4'
 file 'C:\Videos\clip02.mp4'
 file 'C:\Videos\clip03.mp4'
+```
 
 ```powershell
 powershell -ExecutionPolicy Bypass -File .\ffmpeg-join-video-files.ps1 -inputListFile .\list.txt -outputFile C:\Videos\joined.mp4
+```
