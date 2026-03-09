@@ -17,7 +17,7 @@ Small Windows PowerShell utilities for installing FFmpeg, updating FFmpeg, and j
 
 - **Operating system:** Windows only
 - **Minimum PowerShell version:** Windows PowerShell 5.1
-- **FFmpeg requirement for join script:** `ffmpeg.exe` must already be available in `PATH`
+- **FFmpeg requirement for join script:** `ffmpeg.exe` must already be available in `PATH`. You can run [install-ffmpeg.ps1|https://github.com/AllenCraigBarnard/ffmpeg-powershell-toolkit?tab=readme-ov-file#install-ffmpegps1]
 
 ## Scripts
 
