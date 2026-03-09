@@ -3,7 +3,7 @@
     <tr>
       <td align="center" bgcolor="#2f2f2f">
         <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/5f/FFmpeg_Logo_new.svg/500px-FFmpeg_Logo_new.svg.png" height="300" alt="FFmpeg logo" />
-        <img src="https://upload.wikimedia.org/wikipedia/commons/2/2f/PowerShell_5.0_icon.png" height="200" alt="PowerShell logo" />
+        <img src="https://upload.wikimedia.org/wikipedia/commons/2/2f/PowerShell_5.0_icon.png" height="150" alt="PowerShell logo" />
       </td>
     </tr>
   </table>
